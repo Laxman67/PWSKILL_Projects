@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 
-
 *,
 ::before,
 ::after {
@@ -8,5 +7,6 @@
 }
 
 body {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
 }
