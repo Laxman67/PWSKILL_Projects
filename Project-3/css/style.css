@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/edgar-castrejon-1CsaVdwfIew-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: inherit;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 10px;
+  margin: 6% 6%;
+  background-color: rgb(34, 167, 167);
+  height: 3000px;
+  width: 100vw;
+}
+
+.navbar {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin: 0px 1em;
+}
+.nav-links ul {
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-links ul * {
+  list-style-type: none;
+  margin: 0.3em;
+}
+
+.sub-container-one {
+  /* background-color: rgb(163, 86, 5); */
+  height: 80vh;
+  background-image: url(/assets/artur-rutkowski-GdTLaWamFHw-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+}
